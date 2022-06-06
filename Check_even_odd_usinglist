@@ -1,0 +1,27 @@
+def even_odd_list(list1,n):
+    flag =1
+    for i in range(0,n):
+        if list1[i]%2==0:
+            pass
+        else:
+            flag=0
+        
+        
+    if(flag==1):
+        print('even')
+    else:
+        print('odd')
+        
+        
+        
+n = int(input('enter the size '))
+list1 = []
+
+for i in range(0,n):
+    a = int(input(f'enter at pos {i}'))
+    list1.append(a)
+
+    
+    
+even_odd_list(list1,n)
+
